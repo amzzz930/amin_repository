@@ -1,6 +1,6 @@
-error,city,country,main,description,temperature,created_at
-"Request failed: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?q=london&appid=c4cd0778e6cbc97263e6774108de2adf&units=metric (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f2138d84ac0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))",,,,,,
-"Request failed: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?q=sylhet&appid=c4cd0778e6cbc97263e6774108de2adf&units=metric (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f2138d84a60>: Failed to establish a new connection: [Errno 101] Network is unreachable'))",,,,,,
-,Paris,FR,Clouds,broken clouds,14.0,2026-06-07T00:07:04
-,Tokyo,JP,Clouds,overcast clouds,19.0,2026-06-07T00:07:04
-,Madrid,ES,Clouds,scattered clouds,23.0,2026-06-07T00:07:05
+city,country,main,description,temperature,created_at
+London,GB,Clouds,scattered clouds,11,2026-06-07T05:02:20
+Sylhet Division,BD,Clouds,broken clouds,32,2026-06-07T05:02:20
+Paris,FR,Clouds,broken clouds,10,2026-06-07T05:02:20
+Tokyo,JP,Rain,moderate rain,21,2026-06-07T05:02:20
+Madrid,ES,Clouds,overcast clouds,18,2026-06-07T05:02:20
