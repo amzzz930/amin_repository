@@ -1,6 +1,6 @@
-city,country,main,description,temperature,created_at
-London,GB,Clear,clear sky,32,2026-07-08T13:40:44
-Sylhet Division,BD,Clouds,overcast clouds,25,2026-07-08T13:40:44
-Paris,FR,Clear,clear sky,34,2026-07-08T13:40:45
-Tokyo,JP,Clouds,overcast clouds,25,2026-07-08T13:40:45
-Madrid,ES,Clear,clear sky,36,2026-07-08T13:40:45
+error,city,country,main,description,temperature,created_at
+"Request failed: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?q=london&appid=c4cd0778e6cbc97263e6774108de2adf&units=metric (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f96de451f90>: Failed to establish a new connection: [Errno 101] Network is unreachable'))",,,,,,
+"Request failed: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?q=sylhet&appid=c4cd0778e6cbc97263e6774108de2adf&units=metric (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f96de452860>: Failed to establish a new connection: [Errno 101] Network is unreachable'))",,,,,,
+"Request failed: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?q=paris&appid=c4cd0778e6cbc97263e6774108de2adf&units=metric (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f96de4530a0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))",,,,,,
+,Tokyo,JP,Clouds,overcast clouds,24.0,2026-07-08T16:05:06
+,Madrid,ES,Clear,clear sky,37.0,2026-07-08T16:05:06
