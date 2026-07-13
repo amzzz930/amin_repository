@@ -1,6 +1,6 @@
 city,country,main,description,temperature,created_at
-London,GB,Clouds,overcast clouds,20,2026-07-13T07:48:10
-Sylhet Division,BD,Clouds,overcast clouds,26,2026-07-13T07:48:10
-Paris,FR,Clouds,overcast clouds,26,2026-07-13T07:48:10
-Tokyo,JP,Rain,heavy intensity rain,30,2026-07-13T07:48:10
-Madrid,ES,Clouds,overcast clouds,24,2026-07-13T07:48:10
+London,GB,Clouds,broken clouds,24,2026-07-13T10:50:02
+Sylhet Division,BD,Clouds,overcast clouds,26,2026-07-13T10:50:02
+Paris,FR,Clouds,overcast clouds,33,2026-07-13T10:50:02
+Tokyo,JP,Clouds,overcast clouds,28,2026-07-13T10:50:02
+Madrid,ES,Clouds,scattered clouds,28,2026-07-13T10:50:02
