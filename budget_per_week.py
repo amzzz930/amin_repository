@@ -150,9 +150,10 @@ class BudgetPerWeek:
         """
         total = 0
 
-        for day in week_records.values():
-            for cost in day:
-                total += cost["cost"]
+        if week_records:
+            for day in week_records.values():
+                for cost in day:
+                    total += cost["cost"]
 
         return round(total, 2)
 
@@ -187,7 +188,7 @@ class BudgetPerWeek:
                 pass
 
         if not last_week_records:
-            raise ValueError(f"No records for last week {self.last_week}")
+            print("No records found for last week")
 
         total_last_week = self.get_total_for_week(last_week_records)
 
